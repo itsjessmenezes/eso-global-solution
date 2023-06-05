@@ -80,3 +80,9 @@ header > h1 {
   align-items: center;
   justify-content: center;
 }
+
+
+header.primary {
+  background-color: var(--primary);
+  background-image: none;
+}
