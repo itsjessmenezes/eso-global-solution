@@ -1,8 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #FF67A7;
-}
+@import url('../style.css');
 
 #container {
   display: flex;
@@ -24,11 +20,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .nav-items > .custom-word-spacing {
@@ -56,4 +47,14 @@ a {
   font-weight: 500;
   font-size: 26px;
   line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content_img {
+  margin-top: 3rem;
+  width: 40rem;
+  height: 40rem;
+  background-color: #FF67A7;
 }
