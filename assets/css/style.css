@@ -1,7 +1,19 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  background-color: #FF67A7;
+  box-sizing: border-box;
+}
+
+html {
+  --primary: #FF67A7;
+  --secondary: #FF67A7;
+
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+
+body {
+  /* background-color: var(--primary); */
 }
 
 a {

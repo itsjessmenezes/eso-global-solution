@@ -11,29 +11,37 @@
   padding-left: 1rem;
 }
 
-.nav-container {
+/* .nav-container {
   width: 50%;
-}
+} */
 
 .nav-items {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: 20px;
 }
+
+
 
 .nav-items > .custom-word-spacing {
   word-spacing: 0.3rem;
 }
-
+.fome-no-brasil {
+  background-image: url('../../images/restos-alimento.png');
+  background-size: cover;
+  padding: 20px;
+}
 
 /* Fome No Brasil */
 .header-text {
-  padding: 1rem 2rem 0 5rem;
-  font-weight: 500;
   font-size: 50px;
+  padding: 1rem 2rem 2rem 5rem;
   line-height: 50px;
   color: #FFFFFF;
+  font-size: 38px;
+  text-align: center;
 }
 
 .header-text > p {
@@ -50,6 +58,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 #content_img {
@@ -57,4 +66,24 @@
   width: 40rem;
   height: 40rem;
   background-color: #FF67A7;
+}
+
+.card-milhoes-pessoas {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.info-milhoes-pessoas {
+  padding: 30px;
+  width: 16rem;
+}
+.info-milhoes-pessoas > h4,
+.info-milhoes-pessoas>span {
+  color: white;
+}
+
+.info-milhoes-pessoas>h4 {
+  font-size: 32px;
 }
