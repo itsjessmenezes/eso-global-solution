@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #FF67A7;
 }
 
@@ -24,11 +26,34 @@ body {
   justify-content: space-around;
 }
 
-.custom-word-spacing {
-  word-spacing: 0.3rem;
-}
-
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.nav-items > .custom-word-spacing {
+  word-spacing: 0.3rem;
+}
+
+
+/* Fome No Brasil */
+.header-text {
+  padding: 1rem 2rem 0 5rem;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.header-text > p {
+  margin-top: 0.3rem;
+}
+
+#content {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 2rem 4rem 2rem 4rem;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
 }
