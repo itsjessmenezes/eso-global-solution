@@ -1,100 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Josefin+Slab:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <title>Document</title>
-</head>
-<body>
-    <header class="primary">
-      <nav>
-        <ul>
-          <li>FOME NO BRASIL</li>
-          <li>INSEGURANÇA ALIMENTAR</li>
-          <li>METAS DA ODS</li>
-          <li>NOSSOS PROJETOS</li>
-        </ul>
-      </nav>
-      <h1>Fome zero e agricultura sustentável possui o objetivo de erradicar a fome, alcançar a segurança alimentar, melhorar a
-      nutrição e promover a agricultura sustentável até 2030</h1>
-    </header>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Document</title>
+    </head>
+    <body>
+      <div>
+        <header id="navbar">
+          <div id="container">
+            <div id="logo"><h2>[NOME]</h2></div>
+            <nav class="nav-container">
+              <ul class="nav-items">
+                  <li><a href="pages/fome-no-brasil.html">FOME NO BRASIL</a></li>
+                  <li class="custom-word-spacing"><a href="#">INSEGURANÇA ALIMENTAR</a></li>
+                  <li><a href="#">META DA ODS</a></li>
+                  <li><a href="#">NOSSOS PROJETOS</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
 
-    <main>
-      <section class="meta-ods-container">
-        <h4>Confira abaixo as metas listadas pela ODS até 2030</h4>
-        <ul>
-          <li>Acabar com a fome e garantir o acesso de todas as pessoas, em particular os pobres e pessoas em situações vulneráveis,
-          incluindo crianças, a alimentos seguros, nutritivos e suficientes durante todo</li>
-          <li>Acabar com todas as formas de má-nutrição, incluindo atingir</li>
-          <li>Garantir sistemas sustentáveis de produção de alimentos e implementar práticas agrícolas resilientes, que aumentem a
-          produtividade e a produção, que ajudem a manter os ecossistemas, que fortaleçam a capacidade de adaptação às mudanças
-          climáticas, às condições meteorológicas extremas, secas, inundações e outros desastres, e que melhorem progressivamente
-          a qualidade da terra e do solo.</li>
-        </ul>
-        <button class="ver-mais">VER MAIS</button>
-      </section>
-      <section class="info-nossos-projetos">
-        <h4>Queremos fazer parte deste avanço contra a fome no país, para isso desenvolvemos esta plataforma que te dará benefícios,
-        possibilitando levar alimentos a quem precisa. Confira abaixo nossos projetos</h4>
-        <div class="descricao-nosso-projeto">
-          <div class="publico-alvo">
-            <p>Qual será o publico alvo?</p>
-            <span>As cestas arrecadadas ser’ão enviadas para a zona periférica de São Paulo. Atualmente esta região conta com cerca de 3,4
-            milhões de pessoas</span>
-          </div>
-          <div class="futuro-projeto">
-            <p>Qual o futuro do projeto?</p>
-            <span>Levar a ideia para o governo para que tome uma proporção maior, agilizando o combate à fome, incentivando a agricultura
-            alimentar e evitando o desperdício de alimentos</span>
-          </div>
-          <div class="valor-arrecadado">
-            <p>Quanto será possível arrecadar?</p>
-            <span>??</span>
-          </div>
-        </div>
-      </section>
-      <section class="projetos-container">
-        <div class="feira-livre">
-          <div class="titulo-projeto">
-            <img src="./assets/feira.png" alt="Icone Feira Livre">
-            <h4>Feira Livre</h4>
-          </div>
-          <p>O programa ”Feira Livre”, é um espaço no nosso site onde estabelecimentos podem se cadastrar e anunciar seus alimentos
-          de forma responsável, oferecendo produtos de qualidade próximos a validade com preços acessíveis.</p>
-          <p>Não existe custo para efetuar o cadastro, em troca de que todo alimento inapropriado para consumo seja doado para a
-          nossa instituição, dessa forma conseguiremos evitar ainda mais o desperdicio transformando este alimento em compostagem</p>
-        </div>
-        <div class="descricao-compostagem">
-          <div class="processo-compostagem">
-            <span>Processo de compostagem</span>
-            <img src="./assets/compostagem.png" alt="Processo de Compostagem">
-          </div>
-          <div class="envio-compostagem">
-            <span>Envio da compostagem</span>
-            <img src="./assets/caminhao.png" alt="Caminhão de Envio">
-          </div>
-          <div class="entrega-produtores">
-            <span>Auxilio a pequenos produtores a manter uma agricultura sustentável</span>
-            <img src="./assets/ciclo-agricultor.png" alt="Ciclo de Entrega ao Produtor">
-          </div>
-          <p>Estes alimentos que não estão próprios para consumo passarão por um processo de trituração incluindo fontes de proteínas
-          para plantas e animais. A compostagem é repassada para pequenos produtores a baixo custo, incentivando a agricultura
-          familiar</p>
-        </div>
-        <div class="projeto-happy-food">
-          <div class="titulo-projeto">
-            <img src="./assets/desconto.png" alt="Icone de Desconto">
-            <h4>Projeto Happy Food</h4>
-          </div>
-          <p>O projeto “Happy Food” é um programa de descontos em estabelecimentos parceiros (restaurantes, padarias, mercados, etc),
-          onde parte do valor arrecadado será convertido em cestas básicas e outra parte em auxilio contra o desperdício.</p>
-        </div>
-      </section>
-    </main>
-</body>
+    </body>
 </html>
