@@ -1,6 +1,6 @@
 @import url('../style.css');
 @import url('./metas_ods.css');
-.container {
+#container {
   margin-bottom: 20px;
 }
 .cta-happy-food {
@@ -72,8 +72,4 @@ font-weight: 900;
 
 .container-padaria > .cards > .card {
   align-items: center;
-}
-
-.card > .cart > button {
-
 }
