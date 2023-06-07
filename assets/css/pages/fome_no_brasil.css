@@ -24,8 +24,8 @@
   background-color: #FFFFFF;
   color: #000000;
   padding: 2rem 4rem 2rem 4rem;
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: bold;
+  font-size: 18px;
   line-height: 30px;
   display: flex;
   flex-direction: column;
@@ -58,4 +58,31 @@
 
 .info-milhoes-pessoas>h4 {
   font-size: 32px;
+}
+
+.hero-inseguranca-alimentar {
+  background-color: var(--primary);
+  width: 100%;
+  padding: 30px;
+
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+}
+
+.inseguranca-alimentar {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inseguranca-alimentar > img {
+  width: 50rem;
+  margin: auto;
+}
+
+.inseguranca-alimentar > button {
+  width: 10rem;
+  text-align: center;
 }

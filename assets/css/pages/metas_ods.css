@@ -3,7 +3,7 @@
 .header {
   background-color: var(--primary);
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .header > h1 {
@@ -141,14 +141,4 @@ margin-bottom: 50px;
   display: flex;
   justify-content: end;
   gap: 20px;
-}
-
-.apoio > .cta > button {
-  all: unset;
-  box-sizing: border-box;
-
-  background-color: var(--secondary);
-  color: var(--white);
-  padding: 10px 20px;
-  border-radius: 5px;
 }
