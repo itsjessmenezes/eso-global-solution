@@ -1,0 +1,154 @@
+@import url('../style.css');
+
+.header {
+  background-color: var(--primary);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.header > h1 {
+  padding: 20px;
+  color: var(--white);
+}
+
+main > h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.metas-ods-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.ver-mais {
+  all: unset;
+  box-sizing: border-box;
+
+  background-color: var(--primary);
+  display: flex;
+  width: 7rem;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+
+  color: var(--white);
+  font-size: 14px;
+}
+
+.nossas-metas {
+  background-color: var(--primary);
+  margin-bottom: 50px;
+  padding: 30px;
+
+  color: var(--white);
+}
+
+.nossas-metas > h3 {
+  margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.nossas-metas > .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nossas-metas > .info > .descricoes {
+  width: 300px;
+}
+.nossas-metas > .info > .descricoes > h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.nossas-metas > .info > .descricoes > span {
+  font-weight: normal;
+}
+
+.nossos-projetos {
+  padding: 30px;
+}
+.projeto-feira-livre, .projeto-happy-food {
+margin-bottom: 50px;
+}
+
+.projeto-feira-livre > .titulo,
+.projeto-happy-food>.titulo {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.projeto-feira-livre> p,
+.projeto-happy-food> p {
+  margin-bottom: 20px;
+}
+
+.compostagem {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.compostagem > .primeira-etapa,
+  .compostagem > .segunda-etapa,
+  .compostagem > .terceira-etapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.compostagem > .segunda-etapa,
+.compostagem > .terceira-etapa {
+  height: 23rem;
+}
+
+.compostagem>.primeira-etapa > p,
+.compostagem>.segunda-etapa > p,
+.compostagem>.terceira-etapa > p {
+  margin-bottom: 3rem;
+}
+
+.apoio {
+  background-color: var(--primary);
+  display: flex;
+  height: 10rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.apoio > span {
+  color: var(--white);
+  font-size: 18px;
+  text-align: center;
+}
+
+.apoio > .cta {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.apoio > .cta > button {
+  all: unset;
+  box-sizing: border-box;
+
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 5px;
+}

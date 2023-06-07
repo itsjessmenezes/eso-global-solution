@@ -6,7 +6,8 @@
 
 html {
   --primary: #FF67A7;
-  --secondary: #FF67A7;
+  --secondary: #FF006B;
+  --white: #FFFFFF;
 
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
@@ -19,4 +20,29 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+#logo {
+  padding-left: 1rem;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+
+
+.nav-items>.custom-word-spacing {
+  word-spacing: 0.3rem;
 }
