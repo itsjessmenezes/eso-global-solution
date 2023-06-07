@@ -1,6 +1,8 @@
 @import url('../style.css');
 @import url('./metas_ods.css');
-
+.container {
+  margin-bottom: 20px;
+}
 .cta-happy-food {
   display: flex;
 
@@ -68,10 +70,6 @@ font-size: 24px;
 font-weight: 900;
 }
 
-.container-padaria > .cards > .card > img {
-  max-height: 200px;
-  width: 100px;
-}
 .container-padaria > .cards > .card {
   align-items: center;
 }
