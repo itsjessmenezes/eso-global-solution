@@ -10,14 +10,13 @@
         <link
           href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Josefin+Slab:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Roboto:wght@400;700&display=swap"
           rel="stylesheet">
-          <script src="../assets/js/script.js"></script>
   <title>METAS DA ODS</title>
 </head>
 <body>
   <header class="header">
             <div id="container">
               <div id="logo"><a href="../index.html">
-                  <h2>[NOME]</h2>
+                  <h2><a href="../index.html">Aliança Alimentar</a></h2>
                 </a></div>
               <nav class="nav-container">
                 <ul class="nav-items">
@@ -52,7 +51,26 @@
         climáticas, às condições meteorológicas extremas, secas, inundações e outros desastres, e que melhorem progressivamente
         a qualidade da terra e do solo.</span>
       </div>
-      <button class="ver-mais">VER MAIS</button>
+      <div class="item-meta toggle">
+        <img src="../assets/images/check.svg" alt="">
+        <span>Dobrar a produtividade agrícola e a renda dos pequenos produtores de alimentos, particularmente das mulheres, povos
+        indígenas, agricultores familiares, pastores e pescadores, inclusive por meio de acesso seguro e igual à terra, outros
+        recursos produtivos e insumos, conhecimento, serviços financeiros, mercados e oportunidades de agregação de valor e de
+        emprego não agrícola.</span>
+      </div>
+      <div class="item-meta toggle">
+        <img src="../assets/images/check.svg" alt="">
+        <span>Manter a diversidade genética de sementes, plantas cultivadas, animais de criação e domesticados e suas respectivas
+        espécies selvagens, inclusive por meio de bancos de sementes e plantas diversificados e bem geridos em nível nacional,
+        regional e internacional, e garantir o acesso e a repartição justa e equitativa dos benefícios decorrentes da utilização
+        dos recursos genéticos e conhecimentos tradicionais associados, como acordado internacionalmente</span>
+      </div>
+      <div class="item-meta toggle">
+        <img src="../assets/images/check.svg" alt="">
+        <span>As metas acordadas internacionalmente sobre nanismo e caquexia em crianças menores de cinco anos de idade, e atender às
+        necessidades nutricionais dos adolescentes, mulheres grávidas e lactantes e pessoas idosas</span>
+      </div>
+      <button id="ver-mais" onclick="showAll()">VER MENOS</button>
     </section>
     <section class="nossas-metas">
       <h3>Queremos fazer parte deste avanço contra a fome no país, para isso desenvolvemos esta plataforma que te dará benefícios,
@@ -116,5 +134,6 @@
       </div>
     </section>
   </main>
+  <script src="../js/script.js"></script>
 </body>
 </html>

@@ -1,2 +1,9 @@
 @import url('../style.css');
 @import url('./metas_ods.css');
+
+.apresentacao {
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 30px;
+}
