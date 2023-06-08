@@ -73,3 +73,8 @@ font-weight: 900;
 .container-padaria > .cards > .card {
   align-items: center;
 }
+
+.container-mercado > h3, .container-padaria > h3 {
+  align-self: center;
+  margin-bottom: 2rem;
+}
